@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Timetable</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f3f5f7;
+        }
+
+        .header{
+            background:white;
+            text-align:center;
+            padding:20px;
+            border-bottom:2px solid #ddd;
+        }
+
+        .logo{
+            width:950px;
+            max-width:100%;
+        }
+
+        .top-bar{
+            background:white;
+            margin-top:10px;
+            padding:25px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            font-size:30px;
+            font-weight:bold;
+            color:#17325c;
+        }
+
+        .container{
+            width:97%;
+            margin:20px auto;
+            background:white;
+            border-radius:12px;
+            padding:25px;
+            box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .week{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-bottom:25px;
+        }
+
+        .week h1{
+            color:#0c2c63;
+            font-size:50px;
+        }
+
+        .btn{
+            background:#2196f3;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:20px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            text-align:center;
+        }
+
+        th{
+            background:#edf1f5;
+            color:#4d647d;
+            padding:15px;
+            border:1px solid #d8dee5;
+            font-size:25px;
+        }
+
+        td{
+            border:1px solid #d8dee5;
+            height:120px;
+            vertical-align:top;
+            padding:8px;
+            background:#ffffff;
+        }
+
+        .time{
+            background:#f2f5f8;
+            font-weight:bold;
+            width:140px;
+            font-size:25px;
+            color:#5a6775;
+        }
+
+        .subject{
+            background:#6ea8ca;
+            color:white;
+            border-radius:6px;
+            padding:15px;
+            margin-top:5px;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <img src="https://seeklogo.com/images/S/saveetha-engineering-college-logo-3A39A9D60C-seeklogo.com.png" class="logo">
+    </div>
+
+    <div class="top-bar">
+
+        <div>
+            TIMETABLE | 2025-2026 - EVEN-JUNIOR
+        </div>
+
+        <div>
+            Week of : May 17 - 23 2026
+        </div>
+
+        <div>
+            Dec 1, 2025 - Jun 6, 2026
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="week">
+
+            <h1>May 17 – 23 2026</h1>
+
+            <button class="btn">Today</button>
+
+        </div>
+
+        <table>
+
+            <tr>
+
+                <th>Time</th>
+                <th>Sun 5/17</th>
+                <th>Mon 5/18</th>
+                <th>Tue 5/19</th>
+                <th>Wed 5/20</th>
+                <th>Thu 5/21</th>
+                <th>Fri 5/22</th>
+                <th>Sat 5/23</th>
+
+            </tr>
+
+            <tr>
+
+                <td class="time">8am</td>
+
+                <td></td>
+
+                <td>
+                    <div class="subject">
+                        Introduction to Machine Learning
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Career Development Skills
+                    </div>
+                </td>
+
+                <td></td>
+
+                <td>
+                    <div class="subject">
+                        Introduction to Machine Learning
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Introduction to Machine Learning
+                    </div>
+                </td>
+
+                <td></td>
+
+            </tr>
+
+            <tr>
+
+                <td class="time">10am</td>
+
+                <td></td>
+
+                <td>
+                    <div class="subject">
+                        Introduction to Machine Learning
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Fundamentals of Web Application
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Fundamentals of Web Application
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Introduction to Machine Learning
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Fundamentals of Web Application
+                    </div>
+                </td>
+
+                <td></td>
+
+            </tr>
+
+            <tr>
+
+                <td class="time">1pm</td>
+
+                <td></td>
+
+                <td></td>
+
+                <td>
+                    <div class="subject">
+                        Fundamentals of Web Application
+                    </div>
+                </td>
+
+                <td>
+                    <div class="subject">
+                        Mentor Meet (3371)
+                    </div>
+                </td>
+
+                <td></td>
+
+                <td>
+                    <div class="subject">
+                        Career Development Skills
+                    </div>
+                </td>
+
+                <td></td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
